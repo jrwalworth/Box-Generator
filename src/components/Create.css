@@ -1,0 +1,24 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.create-form {
+    width: 50%;
+    margin: auto;
+}
+
+
+.allcards {
+    width: 95%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.indivCard {
+    margin-top: 15px;
+    max-height: 200px;
+
+}
