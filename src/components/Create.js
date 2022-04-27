@@ -19,10 +19,10 @@ const Create = (props) => {
                 <Form.Label>Color</Form.Label>
                 <Form.Control type="text" value={color} placeholder="Input Color" onChange={(e) => setColor(e.target.value)} />
             </Form.Group>
-            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            {/* <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Size (X by X pixels)</Form.Label>
                 <Form.Control type="number"  placeholder="X" />
-            </Form.Group>
+            </Form.Group> */}
             <Button type="submit" variant="dark">Add</Button>{' '}
         </Form>
     );
